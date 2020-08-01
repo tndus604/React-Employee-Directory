@@ -1,5 +1,6 @@
 import React from 'react';
 import Moment from 'react-moment';
+import '../styles/Table.css';
 
 function Table(props) {
     return (
@@ -18,7 +19,6 @@ function Table(props) {
                         <td><img src={result.picture.medium} alt={result.name.last}></img></td>
                         <td>{result.name.first} {result.name.last}</td>
                         <td>{result.cell}</td>
-                        <td>{result.email}</td>
                         <td>{result.email}</td>
                         <td><Moment format="MM/DD/YYYY">{result.dob.date}</Moment></td>
 

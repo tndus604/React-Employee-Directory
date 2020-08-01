@@ -1,10 +1,10 @@
 import React from "react";
+import "../styles/SearchForm.css";
 
 function SearchForm(props) {
   return (
     <form>
-      <div className="form-group">
-        <label htmlFor="search">Search:</label>
+      <div className="input-group">
         <input
           onChange={props.handleInputChange}
           value={props.value}
@@ -15,7 +15,7 @@ function SearchForm(props) {
         />
         <button 
           onClick={props.handleSearch}
-          className="btn btn-primary mt-3"
+          className="btn btn-outline-secondary"
           type="submit"
           >
           Search
