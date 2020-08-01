@@ -13,10 +13,13 @@
     "react-bootstrap": "^1.2.2",
     "react-dom": "^16.13.1",
     "react-moment": "^0.9.7",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "save": "^2.4.0",
+    "serve": "^11.3.2"
   },
   "scripts": {
-    "start": "PORT=3001 react-scripts start",
+    "start": "serve -s build",
+    "startdev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
