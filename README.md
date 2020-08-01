@@ -2,6 +2,8 @@
 
 ## Link to Deployed Application
 
+Deployed URL: https://secure-brushlands-37715.herokuapp.com/
+
 ## Screenshot
 
 ![screenshot](./screenshot.png)
