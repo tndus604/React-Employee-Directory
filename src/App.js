@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "./components/Header";
-import UserTable from "./components/UserTable";
+
+import Main from "../src/components/Main";
+
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <UserTable />
+      <Main />
     </div>
   )
 }
